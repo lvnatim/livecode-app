@@ -34,7 +34,7 @@ module.exports = {
       type: 'email',
       required: true,
       unique: true
-    },
+    }
 
 
     //A new join table will be created to keep track of these relations(if using Watermark)

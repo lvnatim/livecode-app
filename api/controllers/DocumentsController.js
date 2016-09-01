@@ -23,7 +23,7 @@ module.exports = {
       if(err){
         res.end("Error: " + err);
       } else {
-        res.end("User destroyed");
+        res.end("Document destroyed");
       }
     });
   }

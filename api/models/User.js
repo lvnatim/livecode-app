@@ -40,11 +40,11 @@ module.exports = {
     //A new join table will be created to keep track of these relations(if using Watermark)
     //Because you may want a model to have multiple many-to-many associations on another model a via key
     //is needed to populate the records
-    documents: {
-      collection: 'document',
-      via: 'collaborators',
-      dominant: true
-    }
+    // documents: {
+    //   collection: 'document',
+    //   via: 'collaborators',
+    //   dominant: true
+    // }
 
     //If we want to use bcrypt
     // Lifecycle Callbacks

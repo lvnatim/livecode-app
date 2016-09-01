@@ -7,7 +7,7 @@
 
 module.exports = {
 	 
-    create: function(req, res) {
+  create: function(req, res) {
     User.create(req.body).done(function(err, user){
       res.end(JSON.stringify(user));
     });

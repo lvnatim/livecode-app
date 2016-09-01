@@ -25,11 +25,11 @@ module.exports = {
       required: true
     },
 
-    //adding a reference to User
-    collaborators: {
-      collection: 'user',
-      via: 'documents'
-    }
+    //adding a reference to User - commented out for now
+    //  collaborators: {
+    //   collection: 'user',
+    //   via: 'documents'
+    // }
   }
 };
 

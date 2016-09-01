@@ -79,7 +79,7 @@ module.exports.connections = {
     host: 'localhost',
     user: 'development', // optional
     password: 'development', // optional
-    database: 'bookstore' //optional
+    database: 'livecodetest' //optional
   }
 
 
